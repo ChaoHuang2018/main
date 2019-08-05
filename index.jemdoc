@@ -15,7 +15,7 @@ E-mail: /chaohuang/ \[@\] northwestern \[DOT\] edu
 == About me
 Hi, welcome to my page!
 
-I'm a postdoc fellow in the ECE department at [https://www.northwestern.edu/ Northwestern University], supervised by [http://users.eecs.northwestern.edu/~qzhu/ Prof. Qi Zhu]. 
+I'm a postdoc fellow in the ECE department at [https://www.northwestern.edu/ Northwestern University], supervised by [http://users.eecs.northwestern.edu/~qzhu/ Prof. Qi Zhu]. My research interests include design and verification of various cyber physical systems, e.g. hybrid systems, neural-network controlled systems.
 
 Prior to Northwestern, I received my B.S. and PhD in mathematics and applied mathematics and computer science from [https://www.nju.edu.cn/EN/ Nanjing University] respectively. I also visited the [https://www.cs.aau.dk/ Department of Computer Science] at [https://www.en.aau.dk/ Aalborg University] and was pleased to work with [http://people.cs.aau.dk/~kgl/ Prof. Kim G. Larsen].
 
@@ -28,8 +28,4 @@ Prior to Northwestern, I received my B.S. and PhD in mathematics and applied mat
 - Northwestern University, Evanston: Postdoc fellow, ECE, 2018 - present
 
 == Recent News
-
-== Contact
-[https://scholar.google.com.hk/citations?user=GbY72eIAAAAJ&hl=hl=en Google Scholar Profile]
-
-[https://github.com/ChaoHuang2018 Github Profile]
+- Our paper /ReachNN: Reachability Analysis of Neural-Network Controlled Systems/ has been accepted by EMSOFT 2019. See you in New York this October!

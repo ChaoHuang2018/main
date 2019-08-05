@@ -4,10 +4,12 @@
 == Research Interests
 My research interests include design and verification of various cyber physical systems, e.g. hybrid systems, neural-network controlled systems. 
 
-== Refereed Publications
+== Publications
+You can also find my publications through [https://scholar.google.com/citations?user=GbY72eIAAAAJ&hl=hl=en Google Scholar Profile].
+
 - [https://arxiv.org/abs/1906.10654 ReachNN: Reachability Analysis of Neural-Network Controlled Systems]
 -- *Chao Huang*, Jiameng Fan, Wenchao Li, Xin Chen, Qi Zhu
--- Accepted by /International Conference on Embedded Software, as part of the ESWEEKTECS special issue/, 2019
+-- To appear on /International Conference on Embedded Software, as part of the ESWEEKTECS special issue/, 2019
 
 - [https://dl.acm.org/citation.cfm?id=3311811 Formal verification of weakly-hard systems]
 -- *Chao Huang*, Wenchao Li, Qi Zhu
