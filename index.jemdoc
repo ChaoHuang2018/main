@@ -3,22 +3,29 @@
 
 ~~~
 {}{img_left}{index_files/identity.jpg}{alt text}{450}{500}
-Postdoc fellow\n 
-[https://www.mccormick.northwestern.edu/electrical-computer/ Department of Electrical and Computer Engineering], \n
-[https://www.northwestern.edu/ Northwestern University] \n
-2145 Sheridan Road \n
-Tech Room L476 \n
-Evanston, IL 60208, United States \n 
-E-mail: /chaohuang/ \[AT\] northwestern \[DOT\] edu
-~~~
-
-== About me
 Hi, welcome to my page!
 
 I'm a postdoc fellow in the [https://www.mccormick.northwestern.edu/electrical-computer/ ECE department] at [https://www.northwestern.edu/ Northwestern University], supervised by [http://users.eecs.northwestern.edu/~qzhu/ Prof. Qi Zhu]. My research interests include design and verification of various cyber physical systems, e.g. hybrid systems, neural-network controlled systems.
 
 Prior to Northwestern, I received my B.S. and PhD in mathematics and applied mathematics and computer science from [https://www.nju.edu.cn/EN/ Nanjing University] respectively. I also visited the [https://www.cs.aau.dk/ Department of Computer Science] at [https://www.en.aau.dk/ Aalborg University] and was pleased to work with [http://people.cs.aau.dk/~kgl/ Prof. Kim G. Larsen].
 
+\n
+\n
+\n
+\n
+
+[https://www.mccormick.northwestern.edu/electrical-computer/ Department of Electrical and Computer Engineering], \n
+[https://www.northwestern.edu/ Northwestern University] \n
+2145 Sheridan Road \n
+Tech Room L476 \n
+Evanston, IL 60208, United States \n 
+E-mail: /chaohuang/ \[AT\] /northwestern/ \[DOT\] /edu/
+~~~
+
+== Recent News
+- 2019.08 Our paper /Towards Verification-Aware Knowledge Distillation for Neural-Network Controlled Systems/ has been accepted by [https://iccad.com/ ICCAD 2019].
+
+- 2019.07 Our paper /ReachNN: Reachability Analysis of Neural-Network Controlled Systems/ has been accepted by [https://esweek.org/home EMSOFT 2019, ESWEEK]. See you in New York this October.
 
 == Education
 - Nanjing University: PhD, Computer science, 2011 - 2018
@@ -27,5 +34,3 @@ Prior to Northwestern, I received my B.S. and PhD in mathematics and applied mat
 == Work
 - Northwestern University, Evanston: Postdoc fellow, ECE, 2018 - present
 
-== Recent News
-- Our paper /ReachNN: Reachability Analysis of Neural-Network Controlled Systems/ has been accepted by [https://esweek.org/home EMSOFT 2019, ESWEEK]. See you in New York this October.
