@@ -7,13 +7,25 @@ My research interests include design and verification of various cyber physical 
 == Publications
 You can also find my publications through [https://scholar.google.com/citations?user=GbY72eIAAAAJ&hl=hl=en Google Scholar Profile].
 
+- [SAW: A Tool for Safety Analysis of Weakly-hard Systems]
+-- *Chao Huang*, Kai-Chieh Chang, Chung-Wei Lin, Qi Zhu
+-- To appear on /International Conference on Computer-Aided Verification/, 2020
+
+- [Opportunistic Intermittent Control with Safety Guarantees for Autonomous Systems]
+-- *Chao Huang*, Shichao Xu, Zhilu Wang, Shuyue Lan, Wenchao Li, Qi Zhu
+-- To appear on /Design Automation Conference/, 2020
+
+- [Navigating discrete difference equation governed WMR by virtual linear leader guided HMPC]
+-- *Chao Huang*, Xin Chen, Enyi Tang, Mengda He, Lei Bu, Shengchao Qin, Yifeng Zeng
+-- To appear on /IEEE International Conference on Robotics and Automation/, 2020
+
 - [https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8942059 Towards Verification-Aware Knowledge Distillation for Neural-Network Controlled Systems]
 -- Jiameng Fan, *Chao Huang*, Wenchao Li, Xin Chen, Qi Zhu
 -- /IEEE\/ACM International Conference on Computer-Aided Design/, 2019
 
 - [https://arxiv.org/abs/1906.10654 ReachNN: Reachability Analysis of Neural-Network Controlled Systems]
 -- *Chao Huang*, Jiameng Fan, Wenchao Li, Xin Chen, Qi Zhu
--- To appear on /International Conference on Embedded Software, as part of the ESWEEKTECS special issue/, 2019
+-- /International Conference on Embedded Software, as part of the ESWEEKTECS special issue/, 2019
 
 - [https://dl.acm.org/citation.cfm?id=3311811 Formal verification of weakly-hard systems]
 -- *Chao Huang*, Wenchao Li, Qi Zhu
