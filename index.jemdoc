@@ -24,10 +24,38 @@ E-mail: /chao.huang/ \[AT\] /northwestern/ \[DOT\] /edu/
 ~~~
 
 == Recent News
+- 2020.07 Our paper /Divide and Slide: Layer-Wise Refinement for Output Range Analysis of Deep Neural Networks/ has been accepted by [http://esweek.hosting2.acm.org/emsoft/ EMSOFT 2020] and will be published in the IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).
 - 2020.07 Our paper /ReachNN*: A Tool for Reachability Analysis of Neural-Network Controlled Systems/ has been accepted by [http://fit.uet.vnu.edu.vn/atva2020/ ATVA 2020].
 - 2020.04 Our paper /SAW: A Tool for Safety Analysis of Weakly-hard Systems/ has been accepted by [http://i-cav.org/2020/ CAV 2020]. See you in Los Angeles, CA this July!
 - 2020.02 Our paper /Opportunistic Intermittent Control with Safety Guarantees for Autonomous Systems/ has been accepted by [https://www.dac.com/ DAC 2020]. See you in San Francisco, CA this July!
 
+
+== Tools and Projects
+
+=== [https://github.com/JmfanBU/ReachNNStar *ReachNN\*: A Tool for Reachability Analysis of Neural-Network Controlled Systems *]
+~~~
+{}{img_left}{index_files/Tools/ReachNN.png}{alt text}{533}{300}
+ReachNN\*, is a tool that verifies the *reach-avoid specification for neural-network controlled systems* and is available [https://github.com/JmfanBU/ReachNNStar HERE]. Detailed discription can be found in [Research.html Research page].
+
+\n
+\n
+
+. C.Huang, J.Fan, W.Li, X.Chen, and Q.Zhu. ReachNN: Reachability Analysis of Neural-Network Controlled Systems. ACM Transactions on Embedded Computing Systems (TECS), 18:1–22, October 2019.
+. J.Fan, C.Huang, W.Li, X.Chen, and Q.Zhu. Towards Verification-Aware Knowledge Distillation for Neural-Network Controlled Systems. International Conference on Computer Aided Design (ICCAD), November 2019.
+. J.Fan, C.Huang, W.Li, X.Chen, and Q.Zhu. ReachNN*: A Tool for Reachability Analysis ofNeural-Network Controlled Systems. International Symposium on Automated Technology for Verification and Analysis (ATVA), October 2020.
+~~~
+
+=== [https://github.com/551100kk/SAW *SAW: A Tool for Safety Analysis of Weakly-hard Systems*]
+~~~
+{}{img_left}{index_files/Tools/SAW.png}{alt text}{533}{300}
+SAW, is a tool for *safety analysis of weakly-hard systems*, in which traditional hard timing constraints are relaxed to allow bounded deadline misses for improving design flexibility and runtime resiliency. It is now available [https://github.com/551100kk/SAW HERE]. Detailed discription can be found in [Research.html Research page].
+
+\n
+\n
+
+. C.Huang, W.Li, and Q.Zhu. Formal verification of weakly-hard systems. International Conference on Hybrid Systems: Computation and Control, April 2019.
+. C.Huang, KC.Chang, CW.Lin and Q.Zhu. SAW: A Tool for Safety Analysis of Weakly-hard Systems. International Conference on Computer-Aided Verification (CAV), July 2020.
+~~~
 
 == Education
 - Nanjing University: PhD, Computer science, 2011 - 2018
