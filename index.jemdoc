@@ -35,7 +35,7 @@ E-mail: /chao.huang/ \[AT\] /northwestern/ \[DOT\] /edu/
 === [https://github.com/JmfanBU/ReachNNStar *ReachNN\*: A Tool for Reachability Analysis of Neural-Network Controlled Systems *]
 ~~~
 {}{img_left}{index_files/Tools/ReachNN.png}{alt text}{533}{300}
-ReachNN\*, is a tool that verifies the *reach-avoid specification for neural-network controlled systems* and is available [https://github.com/JmfanBU/ReachNNStar HERE]. Detailed discription can be found in [Research.html Research page].
+ReachNN\*, is a tool that verifies the *reach-avoid specification for neural-network controlled systems* and is available [https://github.com/JmfanBU/ReachNNStar HERE]. Detailed discription can be found in [research.html Research page].
 
 \n
 \n
@@ -48,7 +48,7 @@ ReachNN\*, is a tool that verifies the *reach-avoid specification for neural-net
 === [https://github.com/551100kk/SAW *SAW: A Tool for Safety Analysis of Weakly-hard Systems*]
 ~~~
 {}{img_left}{index_files/Tools/SAW.png}{alt text}{533}{300}
-SAW, is a tool for *safety analysis of weakly-hard systems*, in which traditional hard timing constraints are relaxed to allow bounded deadline misses for improving design flexibility and runtime resiliency. It is now available [https://github.com/551100kk/SAW HERE]. Detailed discription can be found in [Research.html Research page].
+SAW, is a tool for *safety analysis of weakly-hard systems*, in which traditional hard timing constraints are relaxed to allow bounded deadline misses for improving design flexibility and runtime resiliency. It is now available [https://github.com/551100kk/SAW HERE]. Detailed discription can be found in [research.html Research page].
 
 \n
 \n
