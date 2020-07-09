@@ -33,7 +33,7 @@ SAW, is a tool for *safety analysis of weakly-hard systems*, in which traditiona
 == Publications
 You can also find my publications through [https://scholar.google.com/citations?user=GbY72eIAAAAJ&hl=hl=en Google Scholar Profile].
 
-- [Divide and Slide: Layer-Wise Refinement for Output Range Analysis of Deep Neural Networks]
+- Divide and Slide: Layer-Wise Refinement for Output Range Analysis of Deep Neural Networks
 -- *Chao Huang*, Jiameng Fan, Wenchao Li, Xin Chen, Qi Zhu
 -- /International Conference on Embedded Software (EMSOFT), published in the IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)/, 2019
 
@@ -49,7 +49,7 @@ You can also find my publications through [https://scholar.google.com/citations?
 -- *Chao Huang*, Shichao Xu, Zhilu Wang, Shuyue Lan, Wenchao Li, Qi Zhu
 -- To appear on /Design Automation Conference (DAC)/, 2020
 
-- [Navigating discrete difference equation governed WMR by virtual linear leader guided HMPC]
+- [Navigating Discrete Difference Equation Governed WMR by Virtual Linear Leader Guided HMPC]
 -- *Chao Huang*, Xin Chen, Enyi Tang, Mengda He, Lei Bu, Shengchao Qin, Yifeng Zeng
 -- To appear on /IEEE International Conference on Robotics and Automation (ICRA)/, 2020
 
