@@ -33,9 +33,17 @@ SAW, is a tool for *safety analysis of weakly-hard systems*, in which traditiona
 == Publications
 You can also find my publications through [https://scholar.google.com/citations?user=GbY72eIAAAAJ&hl=hl=en Google Scholar Profile].
 
+- Efficient System Verification with Multiple Weakly-Hard Constraints for Runtime Monitoring
+-- Shih-Lun Wu, Ching-Yuan Bai, Kai-Chieh Chang, Yi-Ting Hsieh, *Chao Huang*, Chung-Wei Lin, Eunsuk Kang and Qi Zhu
+-- To appear on /International Conference on Runtime Verification (RV)/, 2020
+
+- Energy-Efficient Control Adaptation with Safety Guarantees for Learning-Enabled Cyber-Physical Systems
+-- Yixuan Wang, *Chao Huang*, Qi Zhu
+-- To appear on /IEEE\/ACM International Conference on Computer-Aided Design (ICCAD)/, 2020
+
 - Divide and Slide: Layer-Wise Refinement for Output Range Analysis of Deep Neural Networks
 -- *Chao Huang*, Jiameng Fan, Wenchao Li, Xin Chen, Qi Zhu
--- /International Conference on Embedded Software (EMSOFT), published in the IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)/, 2020
+-- To appear on /International Conference on Embedded Software (EMSOFT), published in the IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)/, 2020
 
 - [ReachNN*: A Tool for Reachability Analysis of Neural-Network Controlled Systems]
 -- Jiameng Fan, *Chao Huang*, Wenchao Li, Xin Chen, Qi Zhu
