@@ -11,48 +11,36 @@
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
-<div class="menu-category">Menu</div>
-<div class="menu-item"><a href="index.html">Main&nbsp;page</a></div>
-<div class="menu-item"><a href="research.html" class="current">Research</a></div>
-<div class="menu-item"><a href="experience.html">Experience</a></div>
-<div class="menu-item"><a href="activities.html">Activities</a></div>
+<div class="menu-category">Main page</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="research.html" class="current">Overview</a></div>
+<div class="menu-item"><a href="les-project.html">LES&nbsp;Project</a></div>
+<div class="menu-item"><a href="whs-project.html">WHS&nbsp;Project</a></div>
+<div class="menu-category">Experience</div>
+<div class="menu-item"><a href="experience.html">Working&nbsp;Experience</a></div>
+<div class="menu-category">Activities</div>
+<div class="menu-item"><a href="activities.html">Service</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
 <h1>Research</h1>
 </div>
 <h2>Research Interests</h2>
-<p>My research interests include design and verification of various cyber physical systems, e.g. hybrid systems, neural-network controlled systems.</p>
-<h2>Tools</h2>
-<h3><a href="https://github.com/JmfanBU/ReachNNStar"><b>ReachNN*: A Tool for Reachability Analysis of Neural-Network Controlled Systems </b></a></h3>
-<table class="imgtable"><tr><td>
-<img src="index_files/Tools/ReachNN.png" alt="alt text" width="533px" height="300px" />&nbsp;</td>
-<td align="left"><p>ReachNN*, is a tool that verifies the reach-avoid specification for neural-network controlled systems. The theoretical foundation of ReachNN* is the use of Bernstein polynomials to approximate any Lipschitz-continuous neural-network controller, with provable approximation error bounds. Then the resulting polynomial systems can be verified by current tools, e.g. Flow*. Benefiting from that Bernstein polynomials are universal approximators, ReachNN* has the capability to handle the networks with different types of activation functions. The error bound analysis relies on the partition of the state space and is accelerated by GPU-based parallel computing. Additionally, when the given neural-network controller is hard to verify, ReachNN* also features optional controller re-synthesis via a technique called <i>verification-aware knowledge distillation</i> (KD) to obtain a verification-friendly neural-network controller by reducing the Lipschitz constant of the original controller. ReachNN* is available <a href="https://github.com/JmfanBU/ReachNNStar">HERE</a>.</p>
-<p><br /></p>
-<ol>
-<li><p>C.Huang, J.Fan, W.Li, X.Chen, and Q.Zhu. ReachNN: Reachability Analysis of Neural-Network Controlled Systems. ACM Transactions on Embedded Computing Systems (TECS), 18:1–22, October 2019.</p>
-</li>
-<li><p>J.Fan, C.Huang, W.Li, X.Chen, and Q.Zhu. Towards Verification-Aware Knowledge Distillation for Neural-Network Controlled Systems. International Conference on Computer Aided Design (ICCAD), November 2019.</p>
-</li>
-<li><p>J.Fan, C.Huang, W.Li, X.Chen, and Q.Zhu. ReachNN*: A Tool for Reachability Analysis of Neural-Network Controlled Systems. International Symposium on Automated Technology for Verification and Analysis (ATVA), October 2020.</p>
-</li>
-</ol>
-</td></tr></table>
-<h3><a href="https://github.com/551100kk/SAW"><b>SAW: A Tool for Safety Analysis of Weakly-hard Systems</b></a></h3>
-<table class="imgtable"><tr><td>
-<img src="index_files/Tools/SAW.png" alt="alt text" width="533px" height="300px" />&nbsp;</td>
-<td align="left"><p>SAW, is a tool for <b>safety analysis of weakly-hard systems</b>, in which traditional hard timing constraints are relaxed to allow bounded deadline misses for improving design flexibility and runtime resiliency. Our approach first discretizes the safe state set into grids and constructs a directed graph, where nodes represent the grids and edges represent the reachability relation. Based on graph theory and dynamic programming, our approach can effectively find the safe initial set (consisting of a set of grids), from which the system can be proven safe under given weakly-hard constraints. It is now available <a href="https://github.com/551100kk/SAW">HERE</a>. </p>
-<p><br />
-<br /></p>
-<ol>
-<li><p>C.Huang, W.Li, and Q.Zhu. Formal verification of weakly-hard systems. International Conference on Hybrid Systems: Computation and Control, April 2019.</p>
-</li>
-<li><p>C.Huang, KC.Chang, CW.Lin and Q.Zhu. SAW: A Tool for Safety Analysis of Weakly-hard Systems. International Conference on Computer-Aided Verification (CAV), July 2020.</p>
-</li>
-</ol>
-</td></tr></table>
+<p>My research interests include design and verification of learning-enabled systems.</p>
 <h2>Publications</h2>
 <p>You can also find my publications through <a href="https://scholar.google.com/citations?user=GbY72eIAAAAJ&amp;hl=hl=en">Google Scholar Profile</a>.</p>
+<ul>
+<li><p>Know the Unknowns: Addressing Disturbances and Uncertainties in Autonomous Systems (Invited Paper)</p>
+<ul>
+<li><p>Qi Zhu, Wenchao Li, Hyoseung Kim, Yecheng Xiang, Kacper Wardega, Zhilu Wang, Yixuan Wang, Hengyi Liang, <b>Chao Huang</b>, Jiameng Fan, Hyunjong Choi.</p>
+</li>
+<li><p>To appear on <i>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</i>, 2020</p>
+</li>
+</ul>
+
+</li>
+</ul>
 <ul>
 <li><p>Efficient System Verification with Multiple Weakly-Hard Constraints for Runtime Monitoring</p>
 <ul>

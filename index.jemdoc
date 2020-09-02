@@ -24,6 +24,8 @@ E-mail: /chao.huang/ \[AT\] /northwestern/ \[DOT\] /edu/
 ~~~
 
 == Recent News
+- 2020.08 Our paper /Know the Unknowns: Addressing Disturbances and Uncertainties in Autonomous Systems
+/ (Invited Paper) has been accepted by [https://iccad.com/ ICCAD 2020].
 - 2020.08 Our paper /Efficient System Verification with Multiple Weakly-Hard Constraints for Runtime Monitoring
 / has been accepted by [https://rv20.ait.ac.at/ RV 2020].
 - 2020.07 Our paper /Energy-Efficient Control Adaptation with Safety Guarantees for Learning-Enabled Cyber-Physical Systems
@@ -34,31 +36,21 @@ E-mail: /chao.huang/ \[AT\] /northwestern/ \[DOT\] /edu/
 - 2020.02 Our paper /Opportunistic Intermittent Control with Safety Guarantees for Autonomous Systems/ has been accepted by [https://www.dac.com/ DAC 2020]. See you in San Francisco, CA this July!
 
 
-== Tools and Projects
+== Projects
 
-=== [https://github.com/JmfanBU/ReachNNStar *ReachNN\*: A Tool for Reachability Analysis of Neural-Network Controlled Systems *]
+=== [les-project.html Design and Verification of Learning-Enabled Systems]
 ~~~
-{}{img_left}{index_files/Tools/ReachNN.png}{alt text}{533}{300}
-ReachNN\*, is a tool that verifies the *reach-avoid specification for neural-network controlled systems* and is available [https://github.com/JmfanBU/ReachNNStar HERE]. Detailed discription can be found in [research.html Research page].
+{}{img_left}{les-project/Learning-enabled-project.jpg}{alt text}{700}{350}
+Learning-enabled systems have been receiving numerous attractions from both academia and industry due to promising applications. They often leverage machine learning techniques in their perception of the environment, and increasingly also in the consequent decision making process for planning, navigation, control, etc. With no doubt, safety is one of the key issues before such systems are applied in practice. In this project, we conduct research on safety verification and design of learning-enabled systems with respect to perception, adaptation and control. We also develop tools for demonstration. Details of this project can be found in the [les-project.html project page].
 
-\n
-\n
-
-. C.Huang, J.Fan, W.Li, X.Chen, and Q.Zhu. ReachNN: Reachability Analysis of Neural-Network Controlled Systems. ACM Transactions on Embedded Computing Systems (TECS), 18:1–22, October 2019.
-. J.Fan, C.Huang, W.Li, X.Chen, and Q.Zhu. Towards Verification-Aware Knowledge Distillation for Neural-Network Controlled Systems. International Conference on Computer Aided Design (ICCAD), November 2019.
-. J.Fan, C.Huang, W.Li, X.Chen, and Q.Zhu. ReachNN*: A Tool for Reachability Analysis ofNeural-Network Controlled Systems. International Symposium on Automated Technology for Verification and Analysis (ATVA), October 2020.
 ~~~
 
-=== [https://github.com/551100kk/SAW *SAW: A Tool for Safety Analysis of Weakly-hard Systems*]
+
+=== [whs-project.html Verification of Weakly-hard Systems]
 ~~~
-{}{img_left}{index_files/Tools/SAW.png}{alt text}{533}{300}
-SAW, is a tool for *safety analysis of weakly-hard systems*, in which traditional hard timing constraints are relaxed to allow bounded deadline misses for improving design flexibility and runtime resiliency. It is now available [https://github.com/551100kk/SAW HERE]. Detailed discription can be found in [research.html Research page].
+{}{img_left}{whs-project/overview.png}{alt text}{700}{350}
+Timing uncertainty is one major type of uncertainty during the operation of autonomous systems, i.e., how much time it takes for certain function to complete and whether that meets the deadline. We consider the /weakly-hard/ systems, where deadline misses are allowed in a bounded manner. A common example is that such deadline misses are described by (m,K) constraints, which simply specifies that among any K consecutive executions, at most m instances can miss their execution deadlines.. One of the most important functional properties is safety. In our weakly-hard framework, we consider whether the system with (m,K) constraints will ever enter a pre-specified unsafe state set (see the figure below). We develop several approaches to formally verify the safety of weakly-hard systems. We also develop tools for demonstration. Details of this project can be found in the [whs-project.html project page].
 
-\n
-\n
-
-. C.Huang, W.Li, and Q.Zhu. Formal verification of weakly-hard systems. International Conference on Hybrid Systems: Computation and Control, April 2019.
-. C.Huang, KC.Chang, CW.Lin and Q.Zhu. SAW: A Tool for Safety Analysis of Weakly-hard Systems. International Conference on Computer-Aided Verification (CAV), July 2020.
 ~~~
 
 == Education

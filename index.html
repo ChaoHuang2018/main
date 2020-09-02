@@ -11,11 +11,16 @@
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
-<div class="menu-category">Menu</div>
-<div class="menu-item"><a href="index.html" class="current">Main&nbsp;page</a></div>
-<div class="menu-item"><a href="research.html">Research</a></div>
-<div class="menu-item"><a href="experience.html">Experience</a></div>
-<div class="menu-item"><a href="activities.html">Activities</a></div>
+<div class="menu-category">Main page</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="research.html">Overview</a></div>
+<div class="menu-item"><a href="les-project.html">LES&nbsp;Project</a></div>
+<div class="menu-item"><a href="whs-project.html">WHS&nbsp;Project</a></div>
+<div class="menu-category">Experience</div>
+<div class="menu-item"><a href="experience.html">Working&nbsp;Experience</a></div>
+<div class="menu-category">Activities</div>
+<div class="menu-item"><a href="activities.html">Service</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
@@ -40,6 +45,9 @@ E-mail: <i>chao.huang</i> [AT] <i>northwestern</i> [DOT] <i>edu</i></p>
 </td></tr></table>
 <h2>Recent News</h2>
 <ul>
+<li><p>2020.08 Our paper <i>Know the Unknowns: Addressing Disturbances and Uncertainties in Autonomous Systems
+</i> (Invited Paper) has been accepted by <a href="https://iccad.com/">ICCAD 2020</a>.</p>
+</li>
 <li><p>2020.08 Our paper <i>Efficient System Verification with Multiple Weakly-Hard Constraints for Runtime Monitoring
 </i> has been accepted by <a href="https://rv20.ait.ac.at/">RV 2020</a>.</p>
 </li>
@@ -55,34 +63,16 @@ E-mail: <i>chao.huang</i> [AT] <i>northwestern</i> [DOT] <i>edu</i></p>
 <li><p>2020.02 Our paper <i>Opportunistic Intermittent Control with Safety Guarantees for Autonomous Systems</i> has been accepted by <a href="https://www.dac.com/">DAC 2020</a>. See you in San Francisco, CA this July!</p>
 </li>
 </ul>
-<h2>Tools and Projects</h2>
-<h3><a href="https://github.com/JmfanBU/ReachNNStar"><b>ReachNN*: A Tool for Reachability Analysis of Neural-Network Controlled Systems </b></a></h3>
+<h2>Projects</h2>
+<h3><a href="les-project.html">Design and Verification of Learning-Enabled Systems</a></h3>
 <table class="imgtable"><tr><td>
-<img src="index_files/Tools/ReachNN.png" alt="alt text" width="533px" height="300px" />&nbsp;</td>
-<td align="left"><p>ReachNN*, is a tool that verifies the <b>reach-avoid specification for neural-network controlled systems</b> and is available <a href="https://github.com/JmfanBU/ReachNNStar">HERE</a>. Detailed discription can be found in <a href="research.html">Research page</a>.</p>
-<p><br />
-<br /></p>
-<ol>
-<li><p>C.Huang, J.Fan, W.Li, X.Chen, and Q.Zhu. ReachNN: Reachability Analysis of Neural-Network Controlled Systems. ACM Transactions on Embedded Computing Systems (TECS), 18:1–22, October 2019.</p>
-</li>
-<li><p>J.Fan, C.Huang, W.Li, X.Chen, and Q.Zhu. Towards Verification-Aware Knowledge Distillation for Neural-Network Controlled Systems. International Conference on Computer Aided Design (ICCAD), November 2019.</p>
-</li>
-<li><p>J.Fan, C.Huang, W.Li, X.Chen, and Q.Zhu. ReachNN*: A Tool for Reachability Analysis ofNeural-Network Controlled Systems. International Symposium on Automated Technology for Verification and Analysis (ATVA), October 2020.</p>
-</li>
-</ol>
+<img src="les-project/Learning-enabled-project.jpg" alt="alt text" width="700px" height="350px" />&nbsp;</td>
+<td align="left"><p>Learning-enabled systems have been receiving numerous attractions from both academia and industry due to promising applications. They often leverage machine learning techniques in their perception of the environment, and increasingly also in the consequent decision making process for planning, navigation, control, etc. With no doubt, safety is one of the key issues before such systems are applied in practice. In this project, we conduct research on safety verification and design of learning-enabled systems with respect to perception, adaptation and control. We also develop tools for demonstration. Details of this project can be found in the <a href="les-project.html">project page</a>.</p>
 </td></tr></table>
-<h3><a href="https://github.com/551100kk/SAW"><b>SAW: A Tool for Safety Analysis of Weakly-hard Systems</b></a></h3>
+<h3><a href="whs-project.html">Verification of Weakly-hard Systems</a></h3>
 <table class="imgtable"><tr><td>
-<img src="index_files/Tools/SAW.png" alt="alt text" width="533px" height="300px" />&nbsp;</td>
-<td align="left"><p>SAW, is a tool for <b>safety analysis of weakly-hard systems</b>, in which traditional hard timing constraints are relaxed to allow bounded deadline misses for improving design flexibility and runtime resiliency. It is now available <a href="https://github.com/551100kk/SAW">HERE</a>. Detailed discription can be found in <a href="research.html">Research page</a>.</p>
-<p><br />
-<br /></p>
-<ol>
-<li><p>C.Huang, W.Li, and Q.Zhu. Formal verification of weakly-hard systems. International Conference on Hybrid Systems: Computation and Control, April 2019.</p>
-</li>
-<li><p>C.Huang, KC.Chang, CW.Lin and Q.Zhu. SAW: A Tool for Safety Analysis of Weakly-hard Systems. International Conference on Computer-Aided Verification (CAV), July 2020.</p>
-</li>
-</ol>
+<img src="whs-project/overview.png" alt="alt text" width="700px" height="350px" />&nbsp;</td>
+<td align="left"><p>Timing uncertainty is one major type of uncertainty during the operation of autonomous systems, i.e., how much time it takes for certain function to complete and whether that meets the deadline. We consider the <i>weakly-hard</i> systems, where deadline misses are allowed in a bounded manner. A common example is that such deadline misses are described by (m,K) constraints, which simply specifies that among any K consecutive executions, at most m instances can miss their execution deadlines.. One of the most important functional properties is safety. In our weakly-hard framework, we consider whether the system with (m,K) constraints will ever enter a pre-specified unsafe state set (see the figure below). We develop several approaches to formally verify the safety of weakly-hard systems. We also develop tools for demonstration. Details of this project can be found in the <a href="whs-project.html">project page</a>.</p>
 </td></tr></table>
 <h2>Education</h2>
 <ul>

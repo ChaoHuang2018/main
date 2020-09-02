@@ -1,6 +1,12 @@
-Menu
-	Main page			[index.html]
-    Research			[research.html]
-	Experience			[experience.html]
-    Activities			[activities.html]
+Main page			
+	Home			[index.html]
+Research
+	Overview		[research.html]
+    LES Project		[les-project.html]	
+	WHS Project		[whs-project.html]	
+	
+Experience			
+	Working Experience [experience.html]
+Activities			
+	Service 		[activities.html]
    

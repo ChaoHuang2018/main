@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Verification of Weakly-hard Systems</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Main page</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="research.html">Overview</a></div>
+<div class="menu-item"><a href="les-project.html">LES&nbsp;Project</a></div>
+<div class="menu-item"><a href="whs-project.html" class="current">WHS&nbsp;Project</a></div>
+<div class="menu-category">Experience</div>
+<div class="menu-item"><a href="experience.html">Working&nbsp;Experience</a></div>
+<div class="menu-category">Activities</div>
+<div class="menu-item"><a href="activities.html">Service</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Verification of Weakly-hard Systems</h1>
+</div>
+<h2>Project overview</h2>
+<table class="imgtable"><tr><td>
+<img src="whs-project/overview.png" alt="alt text" width="600px" height="350px" />&nbsp;</td>
+<td align="left"><p>Timing uncertainty is one major type of uncertainty during the operation of autonomous systems, i.e., how much time it takes for certain function to complete and whether that meets the deadline. We consider the <i>weakly-hard</i> systems, where deadline misses are allowed in a bounded manner. A common example is that such deadline misses are described by (m,K) constraints, which simply specifies that among any K consecutive executions, at most m instances can miss their execution deadlines. One of the most important functional properties is safety. In our weakly-hard framework, we consider whether the system with (m,K) constraints will ever enter a pre-specified unsafe state set. We develop several approaches to formally verify the safety of weakly-hard systems.</p>
+</td></tr></table>
+<h2>One-dimensional Abstraction</h2>
+<table class="imgtable"><tr><td>
+<img src="whs-project/one-dimension.png" alt="alt text" width="500px" height="300px" />&nbsp;</td>
+<td align="left"><p>We address the safety of nonlinear weakly-hard systems for the first time in literature. Our approach derives a safe initial set for any given (m,K) constraint, that is, starting from any initial state within such set, the system will always stay within the same safe state set under the given weakly-hard constraint. Specifically, we first convert the infinite-time safety problem into a finite one by finding a set satisfying both emph{local safety} and emph{inductiveness}. Local safety ensures that the system stays in the safe region within K steps, and inductiveness guarantees that the system will go back to the initial set after K steps. Thus the set that satisfies both local safety and inductiveness is theoretically guaranteed to be a safe initial set. To make estimating such a set tractable, we make two assumptions &ndash; exponential stability of the system without deadline misses and Lipschitz continuity of system dynamics &ndash; to help bound the system behavior under different situations. Then we can abstract the problem as a one-dimensional problem and use linear programming (LP) to obtain a certified safe initial set.</p>
+<p><br /></p>
+<ol>
+<li><p><b>C.Huang</b>, W.Li and Q.Zhu. Formal verification of weakly-hard systems. Formal verification of weakly-hard systems. 2019.</p>
+</li>
+</ol>
+</td></tr></table>
+<h2>Discretization and Graph Theory</h2>
+<table class="imgtable"><tr><td>
+<img src="whs-project/graph.png" alt="alt text" width="533px" height="300px" />&nbsp;</td>
+<td align="left"><p>We observe that in practice, the assumptions in one-dimensional abstraction approach are sometimes hard to satisfy and the parameters of exponential stability are difficult to obtain. Moreover, while the scalar abstraction provides high efficiency,  experiments indicate that the estimation is often overly conservative. Thus, we further relax the aforementioned assumptions by leveraging state space discretization and graph theory in. 
+Specifically, we first discretize the safe state set <img class="eq" src="eqs/11264033881-130.png" alt="X" style="vertical-align: -0px" /> into grids, and then try to find the grid set that satisfies both local safety and inductiveness. For each property, we build a directed graph, where each node corresponds to a grid and each directed edge represents the mapping between grids with respect to reachability. We are then able to leverage dynamic programming and inverse search algorithms to construct the initial safe set.</p>
+<p><br /></p>
+<ol>
+<li><p><b>C.Huang</b>, KC.Chang, CW.Lin and Q.Zhu. SAW: A Tool for Safety Analysis of Weakly-hard Systems. International Conference on Computer-Aided Verification (CAV), July 2020.</p>
+</li>
+</ol>
+</td></tr></table>
+<h3>Tools: <a href="https://github.com/551100kk/SAW"><b>SAW</b></a></h3>
+<p>We have implemented this idea as a tool SAW, which is available <a href="https://github.com/551100kk/SAW">HERE</a>. Please be free to play with it.</p>
+<h2>Discrete Systems</h2>
+<table class="imgtable"><tr><td>
+<img src="whs-project/discrete.png" alt="alt text" width="533px" height="300px" />&nbsp;</td>
+<td align="left"><p>We also consider discrete-time systems described as labeled transition systems, and explores logical relationships among weakly-hard constraints with various <img class="eq" src="eqs/13952041964-130.png" alt="m" style="vertical-align: -1px" /> and <img class="eq" src="eqs/9600028874-130.png" alt="K" style="vertical-align: -0px" /> values. The approach improves the verification efficiency by only checking the satisfaction boundary, rather than the whole configuration space of <img class="eq" src="eqs/5831915402512558865-130.png" alt="(m, K)" style="vertical-align: -5px" />.</p>
+<p><br /></p>
+<ol>
+<li><p>SL.Wu, CY.Bai, KC.Chang, YT.Hsieh, <b>C.Huang</b>, CW.Lin, E.Kang and Q.Zhu. Efficient System Verification with Multiple Weakly-Hard Constraints for Runtime Monitoring. International Conference on Runtime Verification (RV). 2020.</p>
+</li>
+</ol>
+</td></tr></table>
+</td>
+</tr>
+</table>
+</body>
+</html>
