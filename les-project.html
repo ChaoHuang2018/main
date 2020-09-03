@@ -33,7 +33,7 @@
 </td></tr></table>
 <h2>Output Range Analysis of Neural Networks</h2>
 <table class="imgtable"><tr><td>
-<img src="les-project/compareNNV.png" alt="alt text" width="350px" height="300px" />&nbsp;</td>
+<img src="les-project/output.png" alt="alt text" width="533px" height="300px" />&nbsp;</td>
 <td align="left"><p>Neural networks have shown promising applications in perception, where adversarial robustness is the key property. Such correctness problem can be converted to the analysis of their output range. Thus, addressing the output range analysis problem is vital to provide guarantees for the safety and security of neural networks. </p>
 <p>Informally, output range analysis solves the following problem: given a neural network f and the input range X, compute the output range of f(X). Since a neural network is highly nonlinear due to the large number of parameters and nonlinear activation functions, it is generally difficult to compute the exact range. In most cases, we consider its overapproximation (superset). Such overapproximation can provide an explicit bound for determining whether the neural network output falls into an unwanted region.</p>
 <p>We propose a layer-wise refinement method that bridges propagation-based methods with mixed-integer linear programming (MILP) by using sliding windows. It outperforms the state-of-the-art tools, e.g. <a href="https://github.com/eth-sri/eran">ERAN</a> and <a href="https://github.com/verivital/nnv">NNV</a> (See the following table comparing with NNV). The details can be found in the paper <i>Divide and Slide: Layer-Wise Refinement for Output Range Analysis of Deep Neural Networks</i> which will be published on TCAD soon.</p>

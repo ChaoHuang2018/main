@@ -10,7 +10,7 @@ Learning-enabled systems have been receiving numerous attractions from both acad
 
 == Output Range Analysis of Neural Networks
 ~~~
-{}{img_left}{les-project/compareNNV.png}{alt text}{350}{300}
+{}{img_left}{les-project/output.png}{alt text}{533}{300}
 Neural networks have shown promising applications in perception, where adversarial robustness is the key property. Such correctness problem can be converted to the analysis of their output range. Thus, addressing the output range analysis problem is vital to provide guarantees for the safety and security of neural networks. 
 
 Informally, output range analysis solves the following problem: given a neural network f and the input range X, compute the output range of f(X). Since a neural network is highly nonlinear due to the large number of parameters and nonlinear activation functions, it is generally difficult to compute the exact range. In most cases, we consider its overapproximation (superset). Such overapproximation can provide an explicit bound for determining whether the neural network output falls into an unwanted region.
