@@ -8,13 +8,21 @@ My research interests include design and verification of learning-enabled system
 == Publications
 You can also find my publications through [https://scholar.google.com/citations?user=GbY72eIAAAAJ&hl=hl=en Google Scholar Profile].
 
+- Cross-Layer Design of Automotive Systems
+-- Zhilu Wang, Hengyi Liang, *Chao Huang*, Qi Zhu
+-- /IEEE Design & Test/, 2020
+
+- ARCH-COMP20 Category Report: Artificial Intelligence and Neural Network Control Systems (AINNCS) for Continuous and Hybrid Systems Plants
+-- Taylor T Johnson, Diego Manzanas Lopez, Patrick Musau, Hoang-Dung Tran, Elena Botoeva, Francesco Leofante, Amir Maleki, Chelsea Sidrane, Jiameng Fan, *Chao Huang*
+-- /7th International Competition on Verifying Continuous and Hybrid Systems (IFAC workshop)/, 2020
+
 - Know the Unknowns: Addressing Disturbances and Uncertainties in Autonomous Systems (Invited Paper)
 -- Qi Zhu, Wenchao Li, Hyoseung Kim, Yecheng Xiang, Kacper Wardega, Zhilu Wang, Yixuan Wang, Hengyi Liang, *Chao Huang*, Jiameng Fan, Hyunjong Choi.
 -- To appear on /IEEE\/ACM International Conference on Computer-Aided Design (ICCAD)/, 2020
 
 - Efficient System Verification with Multiple Weakly-Hard Constraints for Runtime Monitoring
 -- Shih-Lun Wu, Ching-Yuan Bai, Kai-Chieh Chang, Yi-Ting Hsieh, *Chao Huang*, Chung-Wei Lin, Eunsuk Kang and Qi Zhu
--- To appear on /International Conference on Runtime Verification (RV)/, 2020
+-- /International Conference on Runtime Verification (RV)/, 2020
 
 - Energy-Efficient Control Adaptation with Safety Guarantees for Learning-Enabled Cyber-Physical Systems (Best paper candidate)
 -- Yixuan Wang, *Chao Huang*, Qi Zhu
@@ -22,23 +30,23 @@ You can also find my publications through [https://scholar.google.com/citations?
 
 - Divide and Slide: Layer-Wise Refinement for Output Range Analysis of Deep Neural Networks
 -- *Chao Huang*, Jiameng Fan, Wenchao Li, Xin Chen, Qi Zhu
--- To appear on /International Conference on Embedded Software (EMSOFT), published in the IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)/, 2020
+-- /International Conference on Embedded Software (EMSOFT), published in the IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)/, 2020
 
 - [ReachNN*: A Tool for Reachability Analysis of Neural-Network Controlled Systems]
 -- Jiameng Fan, *Chao Huang*, Wenchao Li, Xin Chen, Qi Zhu
--- To appear on /International Symposium on Automated Technology for Verification and Analysis (ATVA)/, 2020
+-- /International Symposium on Automated Technology for Verification and Analysis (ATVA)/, 2020
 
 - [SAW: A Tool for Safety Analysis of Weakly-hard Systems]
 -- *Chao Huang*, Kai-Chieh Chang, Chung-Wei Lin, Qi Zhu
--- To appear on /International Conference on Computer-Aided Verification (CAV)/, 2020
+-- /International Conference on Computer-Aided Verification (CAV)/, 2020
 
 - [Opportunistic Intermittent Control with Safety Guarantees for Autonomous Systems]
 -- *Chao Huang*, Shichao Xu, Zhilu Wang, Shuyue Lan, Wenchao Li, Qi Zhu
--- To appear on /Design Automation Conference (DAC)/, 2020
+-- /Design Automation Conference (DAC)/, 2020
 
 - [Navigating Discrete Difference Equation Governed WMR by Virtual Linear Leader Guided HMPC]
 -- *Chao Huang*, Xin Chen, Enyi Tang, Mengda He, Lei Bu, Shengchao Qin, Yifeng Zeng
--- To appear on /IEEE International Conference on Robotics and Automation (ICRA)/, 2020
+-- /IEEE International Conference on Robotics and Automation (ICRA)/, 2020
 
 - [https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8942059 Towards Verification-Aware Knowledge Distillation for Neural-Network Controlled Systems]
 -- Jiameng Fan, *Chao Huang*, Wenchao Li, Xin Chen, Qi Zhu
